@@ -247,7 +247,7 @@ public class Service {
         assert dock != null;
         dock.setAvailable(availability);
         if (availability == false) {
-            Mail.sendMail("petoknm@gmail.com", "Dock Alert", "Dock " + dock + " availability has changed!");
+            Mail.sendMail("xyz@gmail.com", "Dock Alert", "Dock " + dock + " availability has changed!");
             organizeSchedules();
         }
     }
